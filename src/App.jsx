@@ -72,6 +72,7 @@ function App() {
 
   return <main className='board'>
       <h1 className='game-title'>Juego de Gato</h1>
+      
       <button className='reset-button' onClick={resetGame}>Reinicia el juego</button>
       {/* <section className='game'>
         {

@@ -16,14 +16,17 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
-  
+  background-image: url("./assets/bg-img.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-color: #4bc9df;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #242424;
+
 }
 
 .reset-button {
@@ -32,15 +35,18 @@ body {
 
 .board {
   width: 100%;
-  margin-top: 20px;
+  margin: 0 
+  
   
 }
 .game-title {
   margin-bottom:40px ;
+  margin-top: 0;
+  color: rgb(225, 240, 253);
  
 }
 .board .game {
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: auto;
   display: grid;
@@ -108,7 +114,7 @@ body {
 }
 
 .winner .text {
-  background: #111;
+  background: #4bc9df;
   height: 300px;
   width: 320px;
   border: 2px solid #eee;
