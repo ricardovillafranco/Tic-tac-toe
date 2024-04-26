@@ -1,4 +1,5 @@
 import { Square } from "./Square"
+import ImagesComponent from "./ImgConponent";
 export function WinnerModal ({winner, resetGame})  {
     if(winner === null) return null
 
