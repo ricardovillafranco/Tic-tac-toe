@@ -1,7 +1,7 @@
 {
   "name": "juego-de-gato",
   "private": true,
-  "homepage": "https://ricardovillafranco.github.io/Tic-tac-toe",
+  "homepage": "https://ricardovillafranco.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
